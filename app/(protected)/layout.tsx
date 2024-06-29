@@ -6,7 +6,7 @@ interface ProtectedLayoutProps {
 
 export default function ProtectedLayout({ children }: ProtectedLayoutProps) {
   return (
-    <div className="w-full h-full flex flex-col gap-y-10 items-center justify-center bg-black">
+    <div className="w-full min-h-full py-6 flex flex-col gap-y-10 items-center justify-center bg-black">
       <Navbar />
       {children}
     </div>
